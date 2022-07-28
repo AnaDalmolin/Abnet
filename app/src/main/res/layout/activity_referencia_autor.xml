@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReferenciaAutor">
+
+    <TextView
+        android:id="@+id/tvTituloReferenciaAutor"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Rêferencia Livro" />
+
+    <TextView
+        android:id="@+id/tvNomeLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome Do Autor" />
+
+    <EditText
+        android:id="@+id/etNomeLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textCapWords"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvSobrenomeLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sobrenome Do Autor" />
+
+    <EditText
+        android:id="@+id/etSobrenomeLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textCapWords"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvTituloLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo Livro" />
+
+    <EditText
+        android:id="@+id/etTituloLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="bold"
+        android:importantForAutofill="no"
+        android:inputType="textCapWords"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvEdicaoLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edição Do Livro(Se Tiver)" />
+
+    <EditText
+        android:id="@+id/etEdicaoLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvLocalDePulicacaoLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Local De Publicação" />
+
+    <EditText
+        android:id="@+id/etLocalDePulicacaoLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textCapWords"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvEditoraLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Editora" />
+
+    <EditText
+        android:id="@+id/etEditoraLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textCapWords"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvAnoLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:text="Ano De Publicação" />
+
+
+    <EditText
+        android:id="@+id/etAnoLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnGerarRefLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gerar Rêferencia" />
+
+    <EditText
+        android:id="@+id/etResultadoLivro"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnVoltarLivro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="voltar" />
+
+</LinearLayout>

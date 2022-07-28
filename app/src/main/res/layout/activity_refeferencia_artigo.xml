@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RefeferenciaArtigo">
+
+    <TextView
+        android:id="@+id/tvTituloRefenciaArtigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Rêferencia Artigo" />
+
+    <TextView
+        android:id="@+id/tvNomeArtigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome Do Autor" />
+
+    <EditText
+        android:id="@+id/etNomeArtigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvSobrenomeArtigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sobrenome Do Autor" />
+
+    <EditText
+        android:id="@+id/etSobrenomeArtigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="textCapWords"
+        android:ems="10"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvTituloArtigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo Do Artigo" />
+
+    <EditText
+        android:id="@+id/etTituloArtigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textCapWords"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvTituloRevista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo Da Revista" />
+
+    <EditText
+        android:id="@+id/etTituloRevista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:textStyle="bold"
+        android:inputType="textCapWords"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvLocalPublicacaoArtigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Local De Publicação" />
+
+    <EditText
+        android:id="@+id/etLocalPublicacaoArtigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textCapWords"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvVolumeArtigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volume Do Exemplar " />
+
+    <EditText
+        android:id="@+id/etVolumeExemplar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvNumeroDoExemplarArtigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numero Do Exemplar Artigo" />
+
+    <EditText
+        android:id="@+id/etNumeroDoExemplarArtigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text="" />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:weightSum="1.0">
+
+       <TextView
+           android:id="@+id/tvPaginaInicialArtigo"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.50"
+           android:inputType="numberDecimal"
+           android:text="Pagina Inicial Do Livro" />
+       
+       <TextView
+           android:id="@+id/tvPaginaFinalArtigo"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="0.50"
+           android:inputType="numberDecimal"
+           android:text="Pagina Final Do Artigo" />
+      
+   </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0">
+
+        <EditText
+            android:id="@+id/etPaginaInicialArtigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_weight="0.50"
+            android:inputType="numberDecimal"
+            android:text="" />
+        <EditText
+            android:id="@+id/etPaginaFinalArtigo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_weight="0.50"
+            android:inputType="numberDecimal"
+            android:text="" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/btnGerarRefArtigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gerar Rêferencia" />
+
+    <EditText
+        android:id="@+id/etResultadoArtigo"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnVoltarArtigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="voltar" />
+
+
+</LinearLayout>

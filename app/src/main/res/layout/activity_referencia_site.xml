@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReferenciaSite" >
+
+    <TextView
+        android:id="@+id/tvTituloReferenciaSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Rêferencia Para Site" />
+
+    <TextView
+        android:id="@+id/tvNomeSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome do autor" />
+
+    <EditText
+        android:id="@+id/etNomeSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textCapWords"
+        android:text="" />
+    <TextView
+        android:id="@+id/tvSobrenomeSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sobrenome Do autor" />
+
+    <EditText
+        android:id="@+id/etSobrenomeSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textCapWords"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvNomeDaMateira"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo da materia" />
+
+    <EditText
+        android:id="@+id/etNomeDaMateira"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textCapWords"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvTituloDoSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titulo Do Site" />
+
+    <EditText
+        android:id="@+id/etTituloSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:textStyle="bold"
+        android:inputType="textCapWords"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvLinkSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LinkDaMateira" />
+
+    <EditText
+        android:id="@+id/etLinkSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvAcessoSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:text="Data De Acesso Ex:(01 jan. 2021)" />
+
+    <EditText
+        android:id="@+id/etAcessoSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/tvAnoSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ano Da publicação" />
+
+    <EditText
+        android:id="@+id/etAnoSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+
+
+    <Button
+        android:id="@+id/btnGerarRefSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gerar Rêferencia" />
+
+    <EditText
+        android:id="@+id/etResultadoSite"
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnVoltarSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="voltar" />
+
+</LinearLayout>
